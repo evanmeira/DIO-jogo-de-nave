@@ -1,0 +1,142 @@
+@font-face{
+  font-family: Titulo;
+  src: url(../assets/fonts/ANODETONOONE.TTF);
+}
+
+h1{
+  font-family: Titulo;
+  font-size: 40px;
+  color: #603A03;
+}
+
+body{
+  background-image: url(../assets/imgs/fundo.jpg);
+}
+
+#container{
+  width: 950px;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inicio{
+  width: 350px;
+  height: 200px;
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+#fundoGame{
+  width: 950px;
+  height: 600px; /*630*/
+  background-image: url(../assets/imgs/fundo_game.jpg);
+  border-color: #FFF;
+  border-style: solid;
+}
+
+#jogador{
+  width: 256px;
+  height: 66px;
+  position: absolute;
+  left: 8px;
+  top: 179px;
+  background-image: url(../assets/imgs/apache.png);
+}
+
+#inimigo1{
+  width: 256px;
+  height: 66px;
+  position: absolute;
+  left: 689px;
+  top: 253px;
+  background-image: url(../assets/imgs/inimigo1.png);
+}
+
+#inimigo2{
+  width: 165px;
+  height: 70px;
+  position: absolute;
+  left: 775px;
+  top: 447px;
+  background-image: url(../assets/imgs/inimigo2.png);
+}
+
+#amigo{
+  width: 44px;
+  height: 51px;
+  position: absolute;
+  left: 10px;
+  top: 464px;
+  background-image: url(../assets/imgs/amigo.png);
+}
+
+#disparo{
+  width: 50px;
+  height: 8px;
+  position: absolute;
+  background-image: url(../assets/imgs/disparo.png);
+}
+
+#explosao1{
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao2{
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao3{
+  width: 44px;
+  height: 51px;
+  position: absolute;
+}
+
+#placar{
+  width: 450px;
+  height: 50px;
+  position: absolute;
+  left: 5px;
+  top: 560px;/*590*/
+}
+
+h2{
+  font-family: Titulo;
+  font-size: 20px;
+  color: #FFF;
+}
+
+#energia{
+  width: 140px;
+  height: 38px;
+  position: absolute;
+  left: 750px;
+  top:7px;
+}
+
+#fim{
+  width: 350px;
+  height: 200px;
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+h3{
+  font-family: Titulo;
+  font-size: 20px;
+  color: #603A03;
+  cursor: pointer;
+}
